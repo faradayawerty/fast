@@ -7,7 +7,7 @@ include config.mk
 SRC = st.c x.c
 OBJ = $(SRC:.c=.o)
 
-PREFIX=~/.local/
+PREFIX=~/.local
 
 all: st
 
